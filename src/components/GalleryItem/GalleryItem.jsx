@@ -12,7 +12,6 @@ export class GalleryItem extends Component {
     this.setState(({ isModalOpen }) => ({
       isModalOpen: !isModalOpen
     }));
-    console.log('vvvvvvv');
   };
   
   render() {
